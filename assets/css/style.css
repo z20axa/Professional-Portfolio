@@ -5,58 +5,7 @@
 }
 
 body {
-    background-color: #d9dcd6;
-}
-
-.header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #1e1287;
-    color: white;
-    display:flex;
-    justify-content: space-between;
-}
-
-.header h1 {
-    font-size: 48px;
-}
-
-.header h1 {
-    color: #d9dcd6;
-}
-
-.header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    list-style-type: none; 
-}
-
-.header nav li {
-    margin-left: 25px;
-}
-
-.header nav ul{
-    display:flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-    margin-left:10px;
-}
-
-.header nav li a:hover {
-    color:orange;
-}
-
-.header2 img {
-    height: 300px;
-  }
-
-#backgroundpic {
-    background-image: url("../images/online-reputation-management.jpg");
-    background-repeat: no-repeat;
-    background-size:cover;
-    min-height: 400px;
+    background-color: #302c28;
 }
 
 a {
@@ -68,21 +17,59 @@ p {
     font-size: 16px;
 }
 
-/* .avatar {
-    height: 100px;
-    width: 50%;
-    margin-bottom: 25px;
-    background-image: url("../images/Profile\ Pic.JPG");
-    background-size: cover;
-    background-position: center;
-} */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #302c28;
+    color: whitesmoke;
+    display:flex;
+    justify-content: space-between;
+}
 
-/* .content {
-    width: 100%;
-    display: inline-block;
-    margin-left: 20px; 
-} */
+header h1 {
+    font-size: 48px;
+    color: whitesmoke;
+}
 
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    list-style-type: none; 
+}
+
+/* CSS flex-box to display, space, and wrap the <nav> element */
+header nav ul{
+    display:flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin-left:10px;
+    flex-wrap: wrap;
+}
+
+header nav li {
+    margin-left: 25px;
+}
+
+/* CSS pseudo class: The user's cursor is positioned over the <nav> element*/
+header nav li a:hover {
+    color:orange;
+}
+
+.header2 img {
+    height: 300px;
+  }
+
+  /* Defining attributes for the background image */
+#backgroundpic {
+    background-image: url("../images/online-reputation-management.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 400px;
+}
+
+/* Consolidating class elements */
 .about-me, .projects, .contact-me   {
     margin-bottom: 20px;
     padding: 50px;
@@ -92,32 +79,55 @@ p {
     color: #ffffff;
 }
 
+/* Consolidating class elements */
 .about-me h2,.projects h2, .contact-me h2  {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-#email {
-background-color: goldenrod;
-}
-
-#github {
-background-color: lightsteelblue;
-}
-
-#portfolio {
-background-color: darkorange;
-} 
-  
-
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
+    color: whitesmoke; 
 }
+  
+/* Sections are split into two columns at 992px or smaller */
+@media screen and (max-width: 992px) {
+    .about-me, .projects, .contact-me {
+      width: 100%;
+      background-color: #772014;
+    }
+    /* Change the header bankgroud color */
+    header {
+      background: #772014;
+    }
+    /* Change the footer color */
+    footer h2 {
+        color: #23bf4a;
+      }
+  }
+  
+  /* Section are stacked on top of each other at 768px or smaller */
+  @media screen and (max-width: 768px) {
+    .about-me, .projects, .contact-me {
+      width: 100%;
+      background-color: #8ac4ff;
+    }
+    /* Change the header bankgroud color */
+    header {
+      background: #8ac4ff;
+    }
+    /* Change the footer color */
+    footer h2 {
+        color: #bf7623;
+      }
+  }
+  
+
 
