@@ -14,4 +14,4 @@ This is Alejandro’s deployed portfolio of projects where you can review sample
 
 <!-- Follow [Link](https://z20axa.github.io/Portfolio_screenshot/) -->
 
-![Repo SreenShot](/assets/images/Portfolio_screenshot.png "Repo Screen Shot")
+![Repo SreenShot](/assets/images/portfolio_screenshot.png "Repo Screen Shot")

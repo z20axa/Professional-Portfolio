@@ -41,7 +41,7 @@ header nav {
 
 /* CSS flex-box to display, space, and wrap the CSS <nav> selector */
 header nav ul{
-    display:flex;
+    display: flex;
     justify-content: space-evenly;
     list-style-type: none;
     margin-left:10px;
@@ -85,6 +85,25 @@ header nav li a:hover {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* .projects {
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+  }
+
+.projects header {
+    padding: 20px;
+    background: #13293d;
+    color: #fff;
+  }
+
+.projects img {
+    width: 100%;
+    min-width: 400px;
+} */
 
 footer {
     padding: 30px;
