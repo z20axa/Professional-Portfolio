@@ -39,7 +39,7 @@ header nav {
     list-style-type: none; 
 }
 
-/* CSS flex-box to display, space, and wrap the <nav> element */
+/* CSS flex-box to display, space, and wrap the CSS <nav> selector */
 header nav ul{
     display:flex;
     justify-content: space-evenly;
@@ -69,7 +69,7 @@ header nav li a:hover {
     min-height: 400px;
 }
 
-/* Consolidating class elements */
+/* Consolidating CSS selectors */
 .about-me, .projects, .contact-me   {
     margin-bottom: 20px;
     padding: 50px;
@@ -79,7 +79,7 @@ header nav li a:hover {
     color: #ffffff;
 }
 
-/* Consolidating class elements */
+/* Consolidating CSS selectors */
 .about-me h2,.projects h2, .contact-me h2  {
     margin-bottom: 20px;
     font-size: 36px;
