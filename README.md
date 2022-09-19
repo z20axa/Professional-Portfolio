@@ -12,6 +12,6 @@ This is Alejandro’s deployed portfolio of projects where you can review sample
 - Click on the "CONTACT ME" section GitHub Link to review my GitHub repository of works deployed
 - Resize this page or view the site on various screens and devices and you will be presented with a responsice layout that adapts to your viewport
 
-<!-- Follow [Link](https://z20axa.github.io/HTML_code-refactor/)
+<!-- Follow [Link](https://z20axa.github.io/Portfolio_screenshot/) -->
 
-![Repo SreenShot](/assets/images/deployed_site.png "Repo Screen Shot") -->
+![Repo SreenShot](/assets/images/Portfolio_screenshot.png "Repo Screen Shot")
