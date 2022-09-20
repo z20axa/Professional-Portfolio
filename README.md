@@ -10,7 +10,7 @@ This is Alejandro’s deployed portfolio of projects where you can review sample
 - Click on the "PROJECTS" section titled images to visit the deployed site
 - Click on the "CONTACT ME" section email to contact me via email
 - Click on the "CONTACT ME" section GitHub Link to review my GitHub repository of works deployed
-- Resize this page or view the site on various screens and devices and you will be presented with a responsice layout that adapts to your viewport
+- Resize this page or view the site on various screens and devices and you will be presented with a responsive layout that adapts to your viewport
 
 ## Deployed Website ScreenShot
 
