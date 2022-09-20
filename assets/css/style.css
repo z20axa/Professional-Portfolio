@@ -39,7 +39,7 @@ header nav {
     list-style-type: none; 
 }
 
-/* CSS flex-box to display, space, and wrap the CSS <nav> selector */
+/* CSS flexbox to display, space, and wrap the CSS <nav> selector */
 header nav ul{
     display: flex;
     justify-content: space-evenly;
@@ -67,10 +67,11 @@ header nav li a:hover {
     background-repeat: no-repeat;
     background-size:cover;
     min-height: 400px;
+    margin-bottom: 20px;
 }
 
-/* consolidating CSS selectors & properties */
-.about-me, .projects, .contact-me   {
+/* Consolidating CSS selectors & properties */
+.about-me, .contact-me   {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -78,32 +79,53 @@ header nav li a:hover {
     background-color: #0072bb;
     color: #ffffff;
     font-size: 22px;
+    border-width: 5px;
+    border-style: solid;     
 }
 
-/* consolidating CSS selectors & properties */
+/* Applying flexbox positition to the images */
+.projects {
+    margin-bottom: 20px;
+    background-color: #0072bb;
+    color: #ffffff;
+    font-size: 22px;
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 5px;
+    justify-content: space-evenly;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+/* Adding headings to the project images */
+.projects header {
+    text-align: center;
+    padding: 20px;
+    text-align: center;
+    background: #13293d;
+    color: #fff;
+    border-style: solid;
+  }
+
+/* Consolidating CSS selectors & properties */
 .about-me h2, .projects h2, .contact-me h2  {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/* .projects {
-    display: flex;
-    padding: 10px;
-    text-align: center;
-    border-style: solid;
-    border-width: 1px;
-  }
+/* Setting size for the images */
+img {
+    width: 300px;
+}
 
-.projects header {
-    padding: 20px;
-    background: #13293d;
-    color: #fff;
-  }
-
-.projects img {
-    width: 100%;
-    min-width: 400px;
-} */
+/* Enlarge first project image */
+#enlarge-pic {
+    width: 500px;
+    height: 660px;
+}
+  
 
 footer {
     padding: 30px;
