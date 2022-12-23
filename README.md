@@ -14,7 +14,7 @@ This is Alejandro’s deployed portfolio of projects where you can review sample
 
 ## Deployed Website ScreenShot
 
-![Repo SreenShot](/assets/images/ScreenShotforRepo.jpeg "Repo Screen Shot")
+![Repo SreenShot](/assets/images/Web%20capture_23-12-2022_41418_z20axa.github.io.jpeg "Repo Screen Shot")
 
 ## Website Link
 
